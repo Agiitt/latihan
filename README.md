@@ -1,0 +1,2 @@
+# latihan
+ learning python
