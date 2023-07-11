@@ -3,4 +3,5 @@
     "editor.fontSize": 15,
     "workbench.colorTheme": "Noctis Minimus",
     "workbench.iconTheme": "vscode-icons",
+    "editor.minimap.enabled": false
 }
