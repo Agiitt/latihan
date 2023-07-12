@@ -1,4 +1,4 @@
-# operasi dalam bentuk methode
+# operasi dalam bentuk methode (part 2)
 
 ## merubah cara dari string
 
