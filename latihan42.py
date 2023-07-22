@@ -31,7 +31,7 @@ data_mahasiswa = {
 }
 
 print(".-------.------------------.----.----------.----------.")
-print(f"{'|KEY':<7} {'|Nama':<18} {'|SKS':<4} {'|Beasiswa':<10} {'|Lahir':<11}|") # simbol baru ":<3" rata kiri, ":>3" rata kanan, ":^" rata tengah
+print(f"{'|KEY':<7} {'|Nama':<18} {'|SKS':<4} {'|Beasiswa':<10} {'|Lahir':<11}|") # simbol baru ":<" rata kiri, ":>" rata kanan, ":^" rata tengah dan angka setelah arah panah adalah luas dari huruf yang kosong yang dapat diisi
 print("+-------+------------------+----+----------+----------+")
 
 for mahasiswa in data_mahasiswa:
