@@ -1,5 +1,5 @@
 def harga_setelah_pajak(harga_dasar):
-    return harga_dasar + 500
+    return harga_dasar + (harga_dasar * 10/100)
 
 harga_cilok = 5000
 harga_final_cilok = harga_setelah_pajak(harga_cilok)

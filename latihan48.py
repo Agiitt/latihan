@@ -56,8 +56,14 @@ while True:
     LUAS = hitung_luas(LEBAR,PANJANG)
     KELILING = hitung_keliling(LEBAR,PANJANG)
 
-    display("luas", LUAS)
-    display("keliling", KELILING)
+    opsi = input("pilih perhitungan luas/keliling (l/k): ")
+    if opsi == "l":
+        display("luas", LUAS)
+    elif opsi == "k":
+        display("keliling", KELILING)
+    else:
+        display("luas", LUAS)
+        display("keliling", KELILING)
 
     iscontinue = input("apakah lanjut(y/n)? ")
     if iscontinue == "n":
