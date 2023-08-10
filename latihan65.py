@@ -1,6 +1,6 @@
 # 1. mode write
 
-# dia akan membuat file baru jika tidak ada,
+# dia akan membuat  file baru jika tidak ada,
 # lalu akan menimpa atau overwrite isinya
 
 with open("data_1.txt",'w',encoding="utf-8") as file:
